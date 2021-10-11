@@ -1,0 +1,199 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+        
+        <link rel="stylesheet" href="style.css">
+      
+       
+<title>Online Purchase.com</title>
+    </head>
+<body>
+      
+      <ul>
+        <li><a class="head" href="index.html">Traders Cart</a></li>
+        <li><a class="body" href="#all">New Deals</a></li>
+        <li>            <select  name="Mobiles&Accesories" id="drop-list">
+            <option value="beauty">Fertilizers</option>
+            <option value="beauty">Womens wears</option>
+            <option value="beauty">Mens wears</option>
+            <option value="beauty">Dothies</option>
+            <option value="beauty">Soft Toys</option>
+            </select>
+</li>
+
+        <li><input type="text" id="search-bar" placeholder="search your products here" name="search">
+        </li>
+           <li> <a class="body" href="cart.html">Cart</a></li>
+        <li><a class="body" href="#all">Your Favorites</a></li>
+        <li><a class="body" href="sign-in.html">Sign</a></li>
+      </ul>
+      <ul id="menu-bar">
+        <li><a href="#all" class="menu" >All</a></li>
+        <li><a href="#all" class="menu">Best seller</a></li>
+        <li><a href="#all"  class="menu">Handloom Dresses</a></li>
+        <li><a href="#all" class="menu">Craft Materials</a></li>
+            <li><a href="#all" class="menu">Soft Toys</a></li>
+            <li><a href="#all" class="menu">Computer</a></li>
+           <li><a href="#" class="menu">Costumer service</a></li>
+
+      </ul>
+      
+ <div id="banner">
+    <img id="slide" >
+  </div>   
+<div id="all">
+  <div id="container">
+    <div class="product"> 
+        <img src="ps1.png" id="resize"> 
+        <button class="buy-button">Handloom Mats
+         </button>
+          </div>
+      <div class="product">
+        <img src="mobile-1.jpg" id="resize"> 
+        <button class="buy-button">Fertilizer
+         </button>
+      </div>
+      <div class="product">
+       <a href="single-product.html"> <img src="ps2.jpg" id="resize"> 
+        <button class="buy-button">Jeans For Womens
+         </button></a>
+      </div>
+      <div class="product">
+        <img src="mobile-3.jpg" id="resize"> 
+        <button class="buy-button">HandLoom Dothies
+         </button>
+      </div>
+      <div class="product">
+        <img src="ps16.png" id="resize"> 
+        <button class="buy-button">Womens wear
+         </button>
+      
+       </div>
+      <div class="product">
+        <img src="ps3.png" id="resize"> 
+        <button class="buy-button">Cookwares
+         </button>
+      
+      </div>
+      <div class="product">
+        <img src="ps4.png" id="resize"> 
+        <button class="buy-button">Wooden Holders
+         </button>
+      
+      </div>
+      <div class="product">
+        <img src="ps5.png" id="resize"> 
+        <button class="buy-button">Wall Hangers
+         </button>
+      
+      </div>
+      <div class="product">
+        <img src="ps6.png" id="resize"> 
+        <button class="buy-button">Packing containers
+         </button>
+      
+      </div>
+      
+          <div class="product"> 
+            <img src="ps7.png" id="resize"> 
+            <button class="buy-button">Natural freshners
+             </button>
+          
+          </div>
+            <div class="product">
+              <img src="ps8.png" id="resize"> 
+              <button class="buy-button">Notebooks
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps9.png" id="resize"> 
+              <button class="buy-button">Stationary
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps10.png" id="resize"> 
+              <button class="buy-button">Leather products
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps11.png" id="resize"> 
+              <button class="buy-button">Soft Toys
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps12.png" id="resize"> 
+              <button class="buy-button">Skin care products
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps13.png" id="resize"> 
+              <button class="buy-button">Toiletries
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps14.png" id="resize"> 
+              <button class="buy-button">Footware
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps15.png" id="resize"> 
+              <button class="buy-button">Pet products
+               </button>
+            
+            </div>
+            <div class="product">
+              <img src="ps18.png" id="resize"> 
+              <button class="buy-button">Kids wear
+               </button>
+            
+            </div>
+          
+            <div class="product">
+              <img src="ps17.png" id="resize"> 
+              <button class="buy-button">Mens wear
+               </button>
+            
+            </div>
+          
+            </div>
+        
+        <script>
+        var i=0;
+        var images= [];
+        var time=2000;
+
+        images[0]='p1.png';
+        images[1]='p2.png';
+        images[2]='p3.png';
+        images[3]='p4.png';
+        images[4]='p5.png';
+
+        function changeimg()
+        {
+          document.getElementById("slide").src=images[i];
+          if(i<images.length-1)
+          {
+            i++;
+          }
+          else{
+            i=0;
+          }
+          setTimeout(changeimg,time);
+        }
+window.onload=changeimg;
+        </script>
+                 
+            </body>
+</html>

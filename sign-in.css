@@ -1,0 +1,98 @@
+#form
+{
+    border: 1px solid white;
+    padding: 10px ;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+background-color:aqua;
+border-radius: 25px;
+}
+.align-1
+{
+    padding: 15px;
+    margin-top:30px;
+    caret-color:black;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+}
+.align-2
+{
+    padding: 15px;
+    margin-top:40px;
+    caret-color:black;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.align-3
+{
+    padding: 15px;
+    margin-top:40px;
+    }
+
+.align-4
+{
+    padding: 15px;
+    margin-top:40px;
+  background-color:aqua;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#name
+{
+    background-color:aqua;
+    color: white;
+    font-size: 30px;
+
+}
+.align-4:hover
+{
+background-color: aliceblue;
+color: black;
+transition: 0.5s linear;
+}
+#new-acc
+{
+    padding-top: 10px;
+width: 350px;
+height: auto;
+margin: auto;
+border:none;
+text-align:center;
+font-size: 20px;
+}
+#design
+{
+        background-color: antiquewhite;
+}
+a
+{
+    text-decoration: none;
+    color:orange;
+}
+a:hover
+{
+    color: green;
+    
+}
+#logo
+{
+    margin: auto;
+    height: auto;
+    width: 200px;
+    border: 1px solid black;
+    font-size: 25px;
+    text-align: center; 
+     margin-top: 30px;
+     background-color: black;
+     color: white;
+     border-radius: 10px;
+     padding-top: 15px;
+     padding-bottom: 15px; 
+}
